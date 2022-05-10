@@ -40,3 +40,33 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+h1 {
+  font-size: 32px !important;
+  margin: 0 12px !important;
+}
+h2 {
+  font-size: 24px !important;
+  margin: 0 8px !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 18px 0 !important;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 12px !important;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 21px !important;
+}
